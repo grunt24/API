@@ -1,0 +1,36 @@
+/* Add a custom class for your container */
+.custom-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Rest of your CSS remains the same */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 23%;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.images {
+    width: 80%;
+}
